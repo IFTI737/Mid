@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+form{
+    width: 450px;
+    margin: 60px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    padding: 20px;
+   
+}
+table, th, td{
+    border: 1px solid #ccc;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+th{
+    background-color: #2c3e50;
+    color: white;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="reset"]{
+    padding: 8px 15px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#error, #emailErr, #passwordErr{
+    color: red;
+    font-size: 14px;
+}
+#invalidMessage{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
