@@ -10,7 +10,7 @@ function agevalidate()
     {
         ageError.innerHTML="<p>To be a part of the community, you need to at least 40</p>";
     }
-    else if(input.value>=40 && input.value<=50)
+    else if(input.value>= 40 && input.value<=50)
     {
         ageError.innerHTML="<p>You are the youngsters of this community</p>";
     }
